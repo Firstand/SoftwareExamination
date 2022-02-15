@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SoftwareExaminationC.dir/practice_2019_up.c.obj"
   "CMakeFiles/SoftwareExaminationC.dir/practice_2019_up_try_1.c.obj"
   "SoftwareExaminationC.exe"
   "SoftwareExaminationC.exe.manifest"

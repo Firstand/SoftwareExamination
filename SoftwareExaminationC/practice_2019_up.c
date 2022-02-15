@@ -31,11 +31,11 @@ void Nqueen(int j) {
     int i;
     for (i = 1; i <= n; i++) {
         queen[j] = i;
-        if (Place(j)&&j<=n) {
+        if (Place(j) && j <= n) {
             if (j == n) {
                 Show();
             } else {
-                Nqueen(j+1);
+                Nqueen(j + 1);
             }
         }
     }

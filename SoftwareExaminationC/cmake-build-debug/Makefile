@@ -141,33 +141,6 @@ SoftwareExaminationC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SoftwareExaminationC.dir\build.make CMakeFiles/SoftwareExaminationC.dir/build
 .PHONY : SoftwareExaminationC/fast
 
-practice_2019_up.obj: practice_2019_up.c.obj
-
-.PHONY : practice_2019_up.obj
-
-# target to build an object file
-practice_2019_up.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SoftwareExaminationC.dir\build.make CMakeFiles/SoftwareExaminationC.dir/practice_2019_up.c.obj
-.PHONY : practice_2019_up.c.obj
-
-practice_2019_up.i: practice_2019_up.c.i
-
-.PHONY : practice_2019_up.i
-
-# target to preprocess a source file
-practice_2019_up.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SoftwareExaminationC.dir\build.make CMakeFiles/SoftwareExaminationC.dir/practice_2019_up.c.i
-.PHONY : practice_2019_up.c.i
-
-practice_2019_up.s: practice_2019_up.c.s
-
-.PHONY : practice_2019_up.s
-
-# target to generate assembly for a file
-practice_2019_up.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SoftwareExaminationC.dir\build.make CMakeFiles/SoftwareExaminationC.dir/practice_2019_up.c.s
-.PHONY : practice_2019_up.c.s
-
 practice_2019_up_try_1.obj: practice_2019_up_try_1.c.obj
 
 .PHONY : practice_2019_up_try_1.obj
@@ -204,9 +177,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SoftwareExaminationC
-	@echo ... practice_2019_up.obj
-	@echo ... practice_2019_up.i
-	@echo ... practice_2019_up.s
 	@echo ... practice_2019_up_try_1.obj
 	@echo ... practice_2019_up_try_1.i
 	@echo ... practice_2019_up_try_1.s

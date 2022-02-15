@@ -74,9 +74,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/SoftwareExamination/SoftwareExaminationC/practice_2019_up.c">
-			<Option target="SoftwareExaminationC"/>
-		</Unit>
 		<Unit filename="E:/c/SoftwareExamination/SoftwareExaminationC/practice_2019_up_try_1.c">
 			<Option target="SoftwareExaminationC"/>
 		</Unit>

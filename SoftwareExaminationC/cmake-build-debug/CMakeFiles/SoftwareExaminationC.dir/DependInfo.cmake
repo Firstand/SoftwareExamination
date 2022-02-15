@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/c/SoftwareExamination/SoftwareExaminationC/practice_2019_up.c" "E:/c/SoftwareExamination/SoftwareExaminationC/cmake-build-debug/CMakeFiles/SoftwareExaminationC.dir/practice_2019_up.c.obj"
   "E:/c/SoftwareExamination/SoftwareExaminationC/practice_2019_up_try_1.c" "E:/c/SoftwareExamination/SoftwareExaminationC/cmake-build-debug/CMakeFiles/SoftwareExaminationC.dir/practice_2019_up_try_1.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
