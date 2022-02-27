@@ -1,5 +1,5 @@
 //全国计算机技术与软件专业技术资格考试
-//2019年上半年 软件设计师 下午试卷 试题：n皇后问题
+//2019年上半年 软件设计师 下午试卷 试题四：n皇后问题
 //尝试 1
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,6 +16,11 @@ void Show() {
     printf(")n\n");
 }
 
+/**
+ * 判断该位置是否可以放置皇后
+ * @param j
+ * @return 1：可以放置 0：不可以放置
+ */
 int Place(int j) {
     int i;
     for (i = 1; i < j; i++) {
@@ -26,6 +31,10 @@ int Place(int j) {
     return 1;
 }
 
+/**
+ * 记录皇后位置
+ * @param j
+ */
 void Nqueen(int j) {
     int i;
     for (i = 1; i <= n; i++) {
