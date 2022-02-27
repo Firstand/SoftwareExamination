@@ -7,7 +7,7 @@ package com.example.softwareexaminationjava.practice_2019_up_1;
 public class StrategyTest {
 
     public static void main(String[] args) {
-        BrakeBehavior brake = new ShortWheelBreak();
+        BrakeBehavior brake = new LongWheelBreak();
         ShortWheelCar car = new ShortWheelCar(brake);
         //(5)
         car.brake();
